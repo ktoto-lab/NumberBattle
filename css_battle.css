@@ -18,7 +18,6 @@ body {
         #080813;
 }
 
-/* Загальний контейнер */
 .layout {
     width: 100%;
     max-width: 1700px;
@@ -28,7 +27,6 @@ body {
     gap: 55px;
 }
 
-/* Фоторамки */
 .photo-frame {
     flex: 0 0 350px;
     height: 650px;
@@ -41,7 +39,6 @@ body {
     align-items: center;
 }
 
-/* Самі зображення */
 .photo-frame img {
     width: 85%;
     height: 85%;
@@ -54,7 +51,6 @@ body {
     transform: translateY(33px);
 }
 
-/* Ліва неонова рамка */
 .left-frame {
     border: 2px solid #00eaff;
     box-shadow:
@@ -64,7 +60,6 @@ body {
         inset 0 0 20px rgba(0, 234, 255, 0.2);
 }
 
-/* Права неонова рамка */
 .right-frame {
     border: 2px solid #ff38d1;
     box-shadow:
@@ -74,7 +69,6 @@ body {
         inset 0 0 20px rgba(255, 56, 209, 0.2);
 }
 
-/* Ігрове поле */
 .game {
     flex: 1;
     max-width: 700px;
@@ -223,7 +217,6 @@ button:disabled {
     letter-spacing: 2px;
 }
 
-/* Адаптивність */
 @media (max-width: 1250px) {
     .layout {
         gap: 25px;
